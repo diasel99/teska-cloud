@@ -55,6 +55,9 @@ DNS: 8.8.8.8
 ## Prepare your Ldapbind user
 Add an new ldapbinduser for nextcloud under _ServiceAccounts. Please copy ldapbinduser to it inherits its attributes.
 
+## Add Reverse Lookup zone
+Add an ptr zone for 192.168.201.
+
 ## Add a new forward Lookup Zone in your DNS Server:
 e.g. cloud.hans-schule.de and Point the A record directly to 192.168.201.7
 
